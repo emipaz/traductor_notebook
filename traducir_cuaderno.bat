@@ -7,4 +7,4 @@ rem Set the working directory
 cd C:\Users\emi\Escritorio\Entorno
 
 rem Run the Python script
-python traductor_notebook.py %1
+python traductor_notebook.py %1 %2 %3
