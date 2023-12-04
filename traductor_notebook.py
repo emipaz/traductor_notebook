@@ -101,7 +101,7 @@ def main():
 
     # Traduce el archivo al idioma especificado
     try:
-        traducir_archivo(args.archivo, idioma_destino='es')
+        traducir_archivo(args.archivo, idioma_destino=args.e)
     except Exception as error:
         print("Error al traducir el archivo: {}".format(error))
     else:
